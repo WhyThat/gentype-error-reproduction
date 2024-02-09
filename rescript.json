@@ -1,0 +1,27 @@
+{
+  "name": "repro-gentype",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "jsx": {
+    "version": 4
+  },
+  "gentypeconfig": {
+    "generatedFileExtension": ".gen.tsx",
+    "module": "es6",
+    "moduleResolution": "node",
+    "language": "typescript",
+    "shims": {
+      "PervasivesU": "PervasivesU"
+    }
+  },
+  "suffix": ".res.js",
+  "bs-dependencies": ["@rescript/core", "@rescript/react"],
+  "bsc-flags": ["-open RescriptCore"]
+}
+

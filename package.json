@@ -1,0 +1,26 @@
+{
+  "name": "repro-gentype",
+  "version": "0.0.0",
+  "scripts": {
+    "res:build": "rescript",
+    "res:clean": "rescript clean",
+    "res:dev": "rescript -w",
+    "ts:check": "tsc"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@rescript/core": "^0.6.0",
+    "@rescript/react": "^0.12.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rescript": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "typescript": "^5.3.3"
+  }
+}

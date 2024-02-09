@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "jsx": "react",
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "noEmit": true
+    }
+}
